@@ -5,6 +5,8 @@
 </head>
 <body>
 <h1><?php echo "Hello World" ?></h1>
+<h1><?php echo "HTML Changed" ?></h1>
+<p>
     <?php
     echo "We are insidle the DB Connection Block!!!"
     $servername = "database-1.c5pjidu07yp7.us-east-1.rds.amazonaws.com";
@@ -29,5 +31,6 @@
 
     $conn->close();
     ?>
+</p>
 </body>
 </html>
