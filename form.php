@@ -8,10 +8,10 @@
     }
 
     // database details
-    $host = "database-1.c5pjidu07yp7.us-east-1.rds.amazonaws.com";
-    $username = "admin";
-    $password = "1ring2rule";
-    $dbname = "sampledb";
+    $host = "mydatabase1.c5pjidu07yp7.us-east-1.rds.amazonaws.com";
+    $username = "rdsuser123";
+    $password = "rdspass123";
+    $dbname = "cloudPlusPlusLab";
 
     // creating a connection
     $con = mysqli_connect($host, $username, $password, $dbname);
