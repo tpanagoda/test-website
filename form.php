@@ -8,9 +8,9 @@
     }
 
     // database details
-    $host = "localhost";
-    $username = "root";
-    $password = "";
+    $host = "database-1.c5pjidu07yp7.us-east-1.rds.amazonaws.com";
+    $username = "admin";
+    $password = "1ring2rule";
     $dbname = "sampledb";
 
     // creating a connection
