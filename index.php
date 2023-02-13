@@ -2,6 +2,23 @@
  <head>
  </head>
  <body>
+ <?php
+          //URL from which to get webpage contents.
+          $url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
+          
+          // Initialize a CURL session.
+          $newCurl = curl_init();
+          
+          //grab URL and pass it to the variable.
+          curl_setopt($newCurl, CURLOPT_URL, $url);
+
+          // Return Page contents.
+          curl_setopt($newCurl, CURLOPT_RETURNTRANSFER, true);
+          
+          $output = curl_exec($newCurl);
+          
+          echo $output;
+          ?>
    <div class="form">
     <form method="POST" action="form.php">
       <p>
