@@ -16,7 +16,7 @@
           curl_setopt($newCurl, CURLOPT_RETURNTRANSFER, true);
           
           $output = curl_exec($newCurl);
-          
+          <p>availability-zone</p>
           echo $output;
           ?>
    <div class="form">
